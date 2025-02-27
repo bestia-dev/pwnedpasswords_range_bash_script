@@ -1,6 +1,7 @@
 #!/bin/sh
 
-# sh pwnedpasswords-range.sh
+# in Debian bash shell or in Windows git-bash shell
+# sh pwnedpasswords_range.sh
 
 printf "\e[1;33m   Small and simple bash script to check if your password is contained in known breaches. \e[0m\n"
 printf "\e[1;33m   First your password will be hashed locally. The first 5 characters of the hash will be sent to \e[0m\n"

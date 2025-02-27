@@ -22,7 +22,7 @@ The breaches of many many web sites gave hackers a big database of passwords.
 They can use that for a dictionary attack that is much more efficient of a brute force attack.  
 If your password is in that database it is bad. You need to change it.  
 We are happy that Troy Hunt have made the Open Source database of these passwords.  
-On //haveibeenpwned.com, we can discover if our password is in this database.
+On [//haveibeenpwned.com](https://haveibeenpwned.com), we can discover if our password is in this database.
 
 I don't like to type my passwords in some web site. I rather type it in a bash script.
 
@@ -47,7 +47,7 @@ I wanted to write a Rust program, but the bash script is better for review and i
 I simply run the script in `Debian bash` shell or in `Windows git-bash` shell:  
 
 ```bash
-sh pwnedpasswords-range.sh
+sh pwnedpasswords_range.sh
 ```
 
 ## Open-source and free as a beer
